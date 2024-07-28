@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: var();
+    margin: 0;
+    font-family: 'Lilita One', sans-serif;
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    justify-content: end;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Biryani', sans-serif;
+}
+
+.header-svg {
+    width: 100%;
+    align-items: flex-end;
+
+}
+
+.header-logo {
+    max-width: 180px;
+    border: 2px solid   white;
+    border-radius: 50%;
+    margin-top: -15%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    box-shadow: 3px 5px 15px 3px rgba(0, 0, 0, 1);
+    margin-right: 90px;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 100%;
+    justify-content: end;
+}
+
+.header-text {
+    text-align: end;
+    margin-top: 20px;
+    color: black;
+    padding: 0 80px;
+    margin-left: 0;
+}
+p {
+    color: black;
+    align-items: end;
+    justify-content: end;
+    padding: 20px;
+    margin:0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 10px 0;
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid cyan;
+    background: whitesmoke;
+    box-shadow: -1px 5px 10px 1px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+a:hover {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 15px 1px;
+    opacity: 0.9;
+    border-color: transparent;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    font-family: 'Jost', sans-serif;
+    font-size: 13px
+}
+
+span {
+    font-weight: 600;
+}
+
+.footer-svg {
+    width: 100%;
+
+}
+
+.footer-svg svg {
+    margin-bottom: -7px;
+}
